@@ -1,5 +1,15 @@
 # Projet_Tutore_-_BERRET_CHAPELLIER_CHEKLAT_V2
 
+## Objectifs projet
+
+1. Avoir le cluster kubernetes (obligatoire)
+2. Avoir set up gitpod avec lamp
+3. Avoir docker dans gitpod
+
+Perspectives d'amélioration :
+...
+
+
 ## Problèmes rencontrés
 
 
