@@ -2,8 +2,8 @@
 
 ## Plan d'action
 
-1. Installer un cluster Kubernetes sur ton serveur dédié (avec k3s ou kubeadm)
-2. Déployer Gitpod avec Helm Charts sur ton cluster
+1. Installer un cluster Kubernetes sur le serveur dédié (avec k3s ou kubeadm)
+2. Déployer Gitpod avec Helm Charts sur le cluster
 3. Intégrer un stockage persistant pour les données des utilisateurs
 4. Configurer l’ingress et la gestion des domaines pour accéder aux workspaces
 5. Tester et ajuster les performances (scalabilité, auto-scaling)
