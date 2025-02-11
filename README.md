@@ -1,13 +1,12 @@
 # Projet_Tutore_-_BERRET_CHAPELLIER_CHEKLAT_V2
 
-## Objectifs projet
+## Plan d'action
 
-1. Avoir le cluster kubernetes (obligatoire)
-2. Avoir set up gitpod avec lamp
-3. Avoir docker dans gitpod
-
-Perspectives d'amélioration :
-...
+1. Installer un cluster Kubernetes sur ton serveur dédié (avec k3s ou kubeadm)
+2. Déployer Gitpod avec Helm Charts sur ton cluster
+3. Intégrer un stockage persistant pour les données des utilisateurs
+4. Configurer l’ingress et la gestion des domaines pour accéder aux workspaces
+5. Tester et ajuster les performances (scalabilité, auto-scaling)
 
 
 ## Problèmes rencontrés
@@ -16,6 +15,7 @@ Perspectives d'amélioration :
 
 ## Source
 
-cluster Kubernetes : https://bobcares.com/blog/kubernetes-cluster-deployment-on-proxmox-8/
+Cluster Kubernetes : https://bobcares.com/blog/kubernetes-cluster-deployment-on-proxmox-8/
 Video cluster Kubernetes : https://www.youtube.com/watch?v=PtQ8FOepn94
 Projet référence de vérification d'installation Docker : https://github.com/docker/awesome-compose
+Comment créer un manifest Kubernetes : https://spacelift.io/blog/kubernetes-manifest-file
