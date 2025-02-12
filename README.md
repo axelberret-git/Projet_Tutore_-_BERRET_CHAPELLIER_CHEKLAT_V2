@@ -30,7 +30,7 @@ que la mise en place du projet du projet.
 
 ## Source
 
-Cluster Kubernetes : https://bobcares.com/blog/kubernetes-cluster-deployment-on-proxmox-8/
-Video cluster Kubernetes : https://www.youtube.com/watch?v=PtQ8FOepn94
-Projet référence de vérification d'installation Docker : https://github.com/docker/awesome-compose
-Comment créer un manifest Kubernetes : https://spacelift.io/blog/kubernetes-manifest-file
+- Cluster Kubernetes : https://bobcares.com/blog/kubernetes-cluster-deployment-on-proxmox-8/
+- Video cluster Kubernetes : https://www.youtube.com/watch?v=PtQ8FOepn94
+- Projet référence de vérification d'installation Docker : https://github.com/docker/awesome-compose
+- Comment créer un manifest Kubernetes : https://spacelift.io/blog/kubernetes-manifest-file
