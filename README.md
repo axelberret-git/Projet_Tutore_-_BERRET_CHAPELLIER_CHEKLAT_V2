@@ -1,4 +1,4 @@
-# Projet_Tutore : Implémentation d'un Codespace auto-hébergé
+# Implémentation d'un Codespace auto-hébergé
 
 Voici le README du projet tutoré traitant de l'implémentation d'un Codespace auto-hébergé.
 Il servira de journal d'utilisation tout en retraçant le chemin parcouru pour la mise en 
