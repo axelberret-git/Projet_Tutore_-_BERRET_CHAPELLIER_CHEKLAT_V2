@@ -34,7 +34,7 @@ Nous avions rencontré un problème lié à l'accès de l'admin console KOTS sur
 Pour résumer, le service n'écouter uniquement que sur "localhost" en témoigne le bind sur le port "8800"
 (vérifiable avec `ss -tlnp | grep 8800`) avec l'ip "127.0.0.1".
 
-- Solution :
+- Solution
 
 On a une solution qui consiste à bind sur l'ip 0.0.0.0 afin qu'elle donne l'accès à toutes les adresses
 externes, or un problème de sécurité peut intervenir c'est pourquoi il faut réduire par des règles l'accès.
