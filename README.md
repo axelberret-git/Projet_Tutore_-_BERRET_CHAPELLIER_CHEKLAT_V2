@@ -1,4 +1,4 @@
-# Projet_Tutore_-_BERRET_CHAPELLIER_CHEKLAT_V2
+# Projet_Tutore : Implémentation d'un Codespace auto-hébergé
 
 Voici le README du projet tutoré traitant de l'implémentation d'un Codespace auto-hébergé.
 Il servira de journal d'utilisation tout en retraçant le chemin parcouru pour la mise en 
@@ -17,10 +17,11 @@ que la mise en place du projet du projet.
 ## Plan d'action
 
 1. Installer un cluster Kubernetes sur le serveur dédié (k3s)
-2. Déployer Gitpod avec Helm Charts sur le cluster
+2. Déployer Gitpod avec Helm (pile LAMP)
 3. Intégrer un stockage persistant pour les données des utilisateurs
-4. Configurer l'ingress et la gestion des domaines pour accéder aux workspaces
-5. Tester et ajuster les performances (scalabilité, auto-scaling)
+4. Intégrer docker dans gitpod
+5. Configurer l'ingress et la gestion des domaines pour accéder aux workspaces
+6. Tester et ajuster les performances (scalabilité, auto-scaling)
 
 
 ## Problèmes rencontrés
