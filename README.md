@@ -26,6 +26,23 @@ que la mise en place du projet du projet.
 
 ## Problèmes rencontrés
 
+1. Problème d'accès à l'admin console KOTS
+
+Nous avions rencontré un problème lié à l'accès de l'admin console KOTS sur le réseau de la salle.
+Pour résumer, le service n'écouter uniquement que sur "localhost" en témoigne le bind sur le port "8800"
+(vérifiable avec `ss -tlnp | grep 8800`) avec l'ip "127.0.0.1".
+
+Solution :
+
+On a une solution qui consiste à bind sur l'ip 0.0.0.0 afin qu'elle donne l'accès à toutes les adresses
+externes, or un problème de sécurité peut intervenir c'est pourquoi il faut réduire par des règles l'accès.
+On limite alors l'accès uniquement aux adresses de format "100.64.85.0/24".
+
+Les commandes effectuées sont consultables dans le fichier `gitpod_kubernetes_integration.md` de la documentation
+du projet.
+
+
+2. ...
 
 
 ## Sources
