@@ -30,4 +30,4 @@ Informations relatives à Coder :
 
 
 ## Sources
-
+Déploiement d’un LAMP sur Kubernetes : https://www.nbtechsupport.co.in/2021/09/deploy-lamp-stack-on-kubernetes-cluster.html 
