@@ -21,7 +21,16 @@ Informations relatives à Coder :
 
 ## Plan d'action
 
+Plan Principal :
+1. Installer un cluster Kubernetes (k3s)
+2. Déploiement de Coder
+3. Déploiement de la pile LAMP
+4. Intégration d'un stockage persistant (PV et PVC)
+5. Intégration de Docker dans Coder
 
+Plan optionnel :
+6. Configuration d'Ingress Controller
+7. Tests et ajustements des performances
 
 
 ## Problèmes rencontrés
