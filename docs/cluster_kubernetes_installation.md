@@ -13,5 +13,3 @@
 2. Verfier que kubernetes fonctionne 
 
 `kubectl get nodes`
-
-
