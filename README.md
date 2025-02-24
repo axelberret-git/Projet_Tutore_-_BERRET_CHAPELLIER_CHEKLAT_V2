@@ -29,7 +29,8 @@ Plan Principal :
 5. Intégration de Docker dans Coder
 
 Plan optionnel :
-
+6. Configuration d'Ingress Controller
+7. Tests et ajustements des performances
 
 
 ## Problèmes rencontrés
