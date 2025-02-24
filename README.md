@@ -9,9 +9,14 @@ Il sera notamment possible de consulter les sources qui nous ont permis l'élabo
 que la mise en place du projet du projet.
 
 
-## Utilisation du Codespace - Gitpod
+## Utilisation du Codespace - Coder
 
-
+Informations relatives à Coder :
+- Adresse IP serveur :        100.64.85.4
+- Lien vers serveur :         http://100.64.85.4:3000
+- Mail :                      ahmed.cheklat4@univ-lorraine.fr
+- Username :                  coder
+- Password :                  _coderpassword8?
 
 
 ## Plan d'action
@@ -25,5 +30,4 @@ que la mise en place du projet du projet.
 
 
 ## Sources
-
 
