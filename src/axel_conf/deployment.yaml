@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: coder-workspace
+  namespace: coder
+  labels:
+    app: coder-workspace
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: coder-workspace
+  template:
+    metadata:
+      labels:
+        app: coder-workspace
+    spec:
+      securityContext:
+        runAsUser: 1000
+        fsGroup: 1000
+      containers:
+        - name: dev
+          image: codercom/enterprise-base:ubuntu
+          imagePullPolicy: Always
+          command: ["sh", "-c", "service ssh start && tail -f /dev/null"]
+          securityContext:
+            runAsUser: 1000
+          ports:
+            - containerPort: 22
+          volumeMounts:
+            - mountPath: "/home/coder"
+              name: home
+      initContainers:
+        - name: init
+          image: busybox
+          command: ["sh", "-c", "echo Initializing workspace logs > /home/coder/init.log"]
+          volumeMounts:
+            - mountPath: "/home/coder"
+              name: home
+      volumes:
+        - name: home
+          persistentVolumeClaim:
+            claimName: coder-home
